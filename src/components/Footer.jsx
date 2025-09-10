@@ -58,7 +58,7 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-4">Artists</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="https://form.jotform.com/252493423386058" className="hover:text-indigo-400">Request an invite</a></li>
+            <li><a href="https://form.jotform.com/252493423386058" target="_blank" className="hover:text-indigo-400">Request an invite</a></li>
             <li><a href="#" className="hover:text-indigo-400">Showcase Portfolio</a></li>
             <li><a href="#" className="hover:text-indigo-400">How It Works</a></li>
             <li><a href="#" className="hover:text-indigo-400">Testimonials</a></li>
