@@ -31,6 +31,8 @@ const GlassHeader = () => {
           {/* Request Invite button */}
           <a
             href="https://form.jotform.com/252493423386058"
+            target="_blank"
+            rel="noopener noreferrer"
             className="
               px-4 py-2 rounded-lg 
               bg-gradient-to-r from-purple-500 to-pink-500
@@ -108,6 +110,8 @@ const GlassHeader = () => {
           <nav className="flex flex-col space-y-2">
           <a
               href="https://form.jotform.com/252493423386058"
+              target="_blank"
+            rel="noopener noreferrer"
               className="
                 px-4 py-2 rounded-lg 
                 bg-gradient-to-r from-purple-500 to-pink-500
@@ -122,6 +126,19 @@ const GlassHeader = () => {
             <a href="#art_bridge" className="hover:underline">Art Bridge</a>
             <a href="#collective" className="hover:underline">Collective</a>
             <a href="#contact" className="hover:underline">Contact</a>
+            <a
+              href=""
+              target="_blank"
+            rel="noopener noreferrer"
+              className="
+                px-4 py-2 rounded-lg 
+                bg-gradient-to-r from-purple-500 to-pink-500
+                text-center font-semibold
+                hover:opacity-90 transition
+              "
+            >
+              LOGIN
+            </a>
             
           </nav>
         </div>
